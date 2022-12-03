@@ -30,6 +30,19 @@ public class Main {
         int totalStudents = LP + AS + EA;
         int paperStudent = paper / totalStudents;
         System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
+        System.out.println("Задача 4");
+        int tar = 16;
+        int time = 2;
+        int tarPerMinute = tar / time;
+        int time20 = tarPerMinute * 20;
+        System.out.println("За 20 минут машины произвела бутылок " + time20 + " штук ");
+        int dayTar = tarPerMinute * 60 * 34;
+        System.out.println("За 20 минут машины произвела бутылок " + dayTar + " штук ");
+        int threeDay = dayTar * 3;
+        System.out.println("За 20 минут машины произвела бутылок " + threeDay + " штук ");
+        int month = dayTar * 30;
+        System.out.println("За 20 минут машины произвела бутылок " + month + " штук ");
+
 
 
 
