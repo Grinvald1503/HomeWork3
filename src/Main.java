@@ -22,6 +22,14 @@ public class Main {
         short t = -159;
         int u = 27897;
         byte o = 67;
+        System.out.println( "задача 3");
+        int LP = 23;
+        int AS = 27;
+        int EA = 30;
+        int paper = 480;
+        int totalStudents = LP + AS + EA;
+        int paperStudent = paper / totalStudents;
+        System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
 
 
 
