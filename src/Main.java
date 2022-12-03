@@ -13,5 +13,18 @@ public class Main {
         System.out.println("Значение переменной d с типом long равно " + d);
         System.out.println("Значение переменной i с типом float равно " + i);
         System.out.println("Значение переменной f с типом double равно " + f);
+        System.out.println("Задача 2");
+        float q = 27.12f;
+        long w = 987678965549l;
+        double e = 2.786;            // в звдвче написанно 2,786 именно с запятой, ниже в коментариях ответили что это дробное число, а не два разных
+        boolean r = false;
+        int y = 579;
+        short t = -159;
+        int u = 27897;
+        byte o = 67;
+
+
+
+
     }
 }
