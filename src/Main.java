@@ -76,6 +76,25 @@ public class Main {
         System.out.println("Потребуется минимум " + minDay + " дней");
         System.out.println("Потребуется максимум " + maxDay + " дней");
         System.out.println("Потребуется в среднем " + averageDay + " дней");
+        System.out.println("Задача 8");
+        int masha = 67760;
+        int denis = 83690;
+        int kristina = 76230;
+        int mashaIncreased = masha / 100 * 110;
+        int denisIncreased = denis / 100 * 110;
+        int kristinaIncreased = kristina / 100 * 110;
+        int ageBeforeMasha = masha * 12;
+        int ageBeforeDenis = denis * 12;
+        int ageBeforeKristina = kristina * 12;
+        int ageAfterMasha = mashaIncreased * 12;
+        int ageAfterDenis = denisIncreased * 12;
+        int ageAfterKristina = kristinaIncreased * 12;
+        int differenceMasha = ageAfterMasha - ageBeforeMasha;
+        int differenceDenis = ageAfterDenis - ageBeforeDenis;
+        int differenceKristina = ageAfterKristina - ageBeforeKristina;
+        System.out.println("Маша теперь получает " + mashaIncreased + " рублей. Годовой доход вырос на " + differenceMasha + " рублей");
+        System.out.println("Маша теперь получает " + denisIncreased + " рублей. Годовой доход вырос на " + differenceDenis + " рублей");
+        System.out.println("Маша теперь получает " + kristinaIncreased + " рублей. Годовой доход вырос на " + differenceKristina + " рублей");
 
 
 
