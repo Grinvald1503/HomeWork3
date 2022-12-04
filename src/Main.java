@@ -69,7 +69,7 @@ public class Main {
         byte mass = 7;
         short min = 250;
         short max = 500;
-        int massGr = 7 * 1000;
+        int massGr = mass * 1000;
         int minDay = massGr / max;
         int maxDay = massGr / min;
         int averageDay = (minDay + maxDay) / 2;
