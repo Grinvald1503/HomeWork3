@@ -51,7 +51,23 @@ public class Main {
         int cansOfWhitePaint = classesAtSchcool * white;
         int cansOfBrownPaint = classesAtSchcool * brown;
 
-        System.out.print("В школе, где " + classesAtSchcool + " классов, нужно " + cansOfWhitePaint + " банок белой краски и " + cansOfBrownPaint + " банок коричневой краски");
+        System.out.println("В школе, где " + classesAtSchcool + " классов, нужно " + cansOfWhitePaint + " банок белой краски и " + cansOfBrownPaint + " банок коричневой краски");
+        System.out.println("Задача 6");
+        byte bananas = 5;
+        byte bananaGr = 80;
+        short milkMl = 200;
+        byte milk100MlInGr = 105;
+        int milkGr = milkMl / 100 * milk100MlInGr;
+        byte iceCream = 2;
+        byte iceCreamGr = 100;
+        byte eggs = 4;
+        byte eggGr = 70;
+        int weightInGrams = bananas * bananaGr + milkGr + iceCream * iceCreamGr + eggs * eggGr;
+        double kg = weightInGrams / 1000.0;
+        System.out.println("Вес спорт-завтрака " + weightInGrams + " кг");
+
+
+
 
 
 
