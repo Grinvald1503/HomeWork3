@@ -65,7 +65,17 @@ public class Main {
         int weightInGrams = bananas * bananaGr + milkGr + iceCream * iceCreamGr + eggs * eggGr;
         double kg = weightInGrams / 1000.0;
         System.out.println("Вес спорт-завтрака " + kg + " кг");
-
+        System.out.println("Задача 7");
+        byte mass = 7;
+        short min = 250;
+        short max = 500;
+        int massGr = 7 * 1000;
+        int minDay = massGr / max;
+        int maxDay = massGr / min;
+        int averageDay = (minDay + maxDay) / 2;
+        System.out.println("Потребуется минимум " + minDay + " дней");
+        System.out.println("Потребуется максимум " + maxDay + " дней");
+        System.out.println("Потребуется в среднем " + averageDay + " дней");
 
 
 
