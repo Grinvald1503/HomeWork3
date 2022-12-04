@@ -64,7 +64,7 @@ public class Main {
         byte eggGr = 70;
         int weightInGrams = bananas * bananaGr + milkGr + iceCream * iceCreamGr + eggs * eggGr;
         double kg = weightInGrams / 1000.0;
-        System.out.println("Вес спорт-завтрака " + weightInGrams + " кг");
+        System.out.println("Вес спорт-завтрака " + kg + " кг");
 
 
 
