@@ -31,8 +31,8 @@ public class Main {
         int paperStudent = paper / totalStudents;
         System.out.println("На каждого ученика рассчитано " + paperStudent + " листов бумаги");
         System.out.println("Задача 4");
-        int tar = 16;
-        int time = 2;
+        byte tar = 16;
+        byte time = 2;
         int tarPerMinute = tar / time;
         int time20 = tarPerMinute * 20;
         System.out.println("За 20 минут машины произвела бутылок " + time20 + " штук ");
@@ -42,6 +42,16 @@ public class Main {
         System.out.println("За 20 минут машины произвела бутылок " + threeDay + " штук ");
         int month = dayTar * 30;
         System.out.println("За 20 минут машины произвела бутылок " + month + " штук ");
+        System.out.println("Задача 5");
+        byte banok = 120;
+        byte white = 2;
+        byte brown = 4;
+        int oneClass = white + brown;
+        int classesAtSchcool = banok / oneClass;
+        int cansOfWhitePaint = classesAtSchcool * white;
+        int cansOfBrownPaint = classesAtSchcool * brown;
+
+        System.out.println("В школе, где " + classesAtSchcool + " классов, нужно " + cansOfWhitePaint + " банок белой краски и " + cansOfBrownPaint + " банок коричневой краски");
 
 
 
