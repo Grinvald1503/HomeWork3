@@ -51,7 +51,7 @@ public class Main {
         int cansOfWhitePaint = classesAtSchcool * white;
         int cansOfBrownPaint = classesAtSchcool * brown;
 
-        System.out.println("В школе, где " + classesAtSchcool + " классов, нужно " + cansOfWhitePaint + " банок белой краски и " + cansOfBrownPaint + " банок коричневой краски");
+        System.out.print("В школе, где " + classesAtSchcool + " классов, нужно " + cansOfWhitePaint + " банок белой краски и " + cansOfBrownPaint + " банок коричневой краски");
 
 
 
